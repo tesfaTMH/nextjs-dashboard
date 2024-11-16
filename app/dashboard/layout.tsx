@@ -1,6 +1,8 @@
 import React, { ReactNode } from "react";
 import SideNav from "../ui/dashboard/sidenav";
 
+export const experimental_ppr = true;
+
 const LayoutDashboard = ({ children }: { children: ReactNode }) => {
   return (
     <div className="flex flex-col md:flex-row md:overflow-hidden h-screen">
